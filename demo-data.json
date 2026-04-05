@@ -1,0 +1,52 @@
+{
+    "documents": [
+        {
+            "content": "Spring AI simplifies the integration of AI models into modern Java applications by providing abstractions over different AI providers like OpenAI, Azure, and Hugging Face. Setting up a VectorStore bean is all you need to enable semantic search.",
+            "metadata": {
+                "topic": "spring framework",
+                "category": "architecture",
+                "difficulty": "beginner"
+            }
+        },
+        {
+            "content": "One of the most complex challenges in artificial intelligence is preventing model hallucinations. Advanced Retrieval-Augmented Generation (RAG) utilizes multi-query expansion, which asks an LLM to rewrite a user query into several semantic variations before hitting the vector database.",
+            "metadata": {
+                "topic": "ai hallucination",
+                "category": "advanced rag",
+                "difficulty": "advanced"
+            }
+        },
+        {
+            "content": "PgVector is an open-source extension for PostgreSQL that enables vector similarity search. By storing text embeddings as heavily optimized multi-dimensional arrays, it allows applications to perform blazing fast nearest-neighbor searches directly within their SQL databases.",
+            "metadata": {
+                "topic": "postgreSQL",
+                "category": "database",
+                "difficulty": "intermediate"
+            }
+        },
+        {
+            "content": "To implement Parallel Search in Java, you can use structured concurrency or the Stream API's parallelStream(). However, when making rapid network calls to a Vector database concurrently, it is crucial to use a controlled ExecutorService to avoid overwhelming the database connection pool.",
+            "metadata": {
+                "topic": "java streams",
+                "category": "performance",
+                "difficulty": "advanced"
+            }
+        },
+        {
+            "content": "LLM Re-Ranking is the final component in a high-accuracy RAG pipeline. After standard vector search retrieves the top K results, these results are passed to an LLM evaluator. The LLM judges the dense context of each document against the original user query, strictly ordering them by genuine relevance.",
+            "metadata": {
+                "topic": "re-ranking",
+                "category": "advanced rag",
+                "difficulty": "advanced"
+            }
+        },
+        {
+            "content": "For optimizing database connections in Spring Boot applications, configuring HikariCP is highly recommended. Adjusting the maximum pool size, connection timeout, and idle timeouts ensures the system gracefully handles sudden bursts of concurrent asynchronous search queries.",
+            "metadata": {
+                "topic": "HikariCP",
+                "category": "optimization",
+                "difficulty": "intermediate"
+            }
+        }
+    ]
+}

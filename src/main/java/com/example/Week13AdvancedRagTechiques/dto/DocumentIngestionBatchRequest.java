@@ -6,5 +6,5 @@ import java.util.List;
  * Request DTO for batch document ingestion
  */
 public record DocumentIngestionBatchRequest(
-        List<DocumentIngestionRequest> documents) {
+                List<DocumentIngestionRequest> documents) {
 }
